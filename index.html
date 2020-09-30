@@ -17,15 +17,23 @@ console.log('GitHub Pages Sample');
 
 <script src="https://sdk.amazonaws.com/js/aws-sdk-2.762.0.min.js"></script>
 <script type="text/javascript">
+    /*
     AWS.config.region = 'ap-northeast-1'; // リージョン
     AWS.config.credentials = new AWS.CognitoIdentityCredentials({
         IdentityPoolId: 'ap-northeast-1:421bf810-8d35-4564-8fe9-030d535dbb80',
     });
+  
     _etmc.push(["setOrgId", "514008293"]);
     _etmc.push(["setUserInfo", {
         "email": "kohei.ebato@karadanote.jp"
     }]);
     _etmc.push(["trackPageView"]);
+    */
 </script>
+<script>
+  console.log('mc tag start')
+  _etmc.push(["setOrgId", "514008293"]);
+  _etmc.push(["trackPageView", { "search" : "aaa" }]);
+</script>  
 </body>
 </html>
