@@ -11,7 +11,7 @@
   console.log('mc tag start')
   _etmc.push(["setOrgId", "514008293"]);
   _etmc.push(["setUserInfo", {"email": "aaa@aaa"}]);
-  _etmc.push(["trackPageView"]);
+  _etmc.push(["trackPageView", { "item" : location.href }]);
 </script>    
 <main>
   <h1>GitHub Pages のサンプルです</h1>
