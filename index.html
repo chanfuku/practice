@@ -9,9 +9,10 @@
 <body>
 <script>
   console.log('mc tag start')
+  const url = location.href;
   _etmc.push(["setOrgId", "514008293"]);
   _etmc.push(["setUserInfo", {"email": "aaa@aaa"}]);
-  _etmc.push(["trackPageView", { "item" : location.href }]);
+  _etmc.push(["trackPageView", { "item" : url }]);
 </script>    
 <main>
   <h1>GitHub Pages のサンプルです</h1>
