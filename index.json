@@ -1,0 +1,71 @@
+{
+    "projects": [
+        {
+            "project_id": 1,
+            "name": "通常リスト_チーム1"
+        },
+        {
+            "project_id": 2,
+            "name": "通常リスト_チーム2"
+        },
+        {
+            "project_id": 3,
+            "name": "通常リスト_チーム3"
+        },
+        {
+            "project_id": 4,
+            "name": "通常リスト_チーム4"
+        },
+        {
+            "project_id": 5,
+            "name": "通常リスト_チーム5"
+        }
+    ],
+    "list": [
+        {
+            "id": 1,
+            "name":"妊娠初期（妊娠0 ~ 4ヶ月）",
+            "project_id": 2
+        },
+        {
+            "id": 2,
+            "name":"妊娠初期（妊娠5 ~ 7ヶ月）",
+            "project_id": 3
+        },
+        {
+            "id": 3,
+            "name":"妊娠初期（妊娠8 ~ 9ヶ月）",
+            "project_id": 4
+        },
+        {
+            "id": 4,
+            "name":"出産前（1ヶ月）",
+            "project_id": 1
+        },
+        {
+            "id": 5,
+            "name":"産後（0 ~ 3ヶ月）",
+            "project_id": 2
+        },
+        {
+            "id": 6,
+            "name":"産後（4 ~ 6ヶ月）",
+            "project_id": 3
+        },
+        {
+            "id": 7,
+            "name":"産後（7 ~ 9ヶ月）",
+            "project_id": 5
+        },
+        {
+            "id": 8,
+            "name":"産後（10 ~ 12ヶ月）",
+            "project_id": 1
+        },
+        {
+            "id": 9,
+            "name":"産後（1歳以上）",
+            "project_id": 2
+        }
+    ]
+}
